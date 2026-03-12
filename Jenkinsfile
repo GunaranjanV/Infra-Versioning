@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/manjukolkar/Infra-Versioning.git'
+                git branch: 'main', url: 'https://GunaranjanV/Infra-Versioning.git'
             }
         }
 
